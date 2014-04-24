@@ -23,7 +23,13 @@ This will just return a reactive Boolean variable and will be updated on changes
 
 ##Use the build in Tempalte Helper
 You can register a helper with a name. This name can be used with the Template helper like this:
-mediaqueries.register("(max-width: 800px)", "iphone");
+
+In your js:
+
+	mediaqueries.register("(max-width: 800px)", "iphone");
+	
+In your tempalte:
+
 	<div class="{{mediaqueries 'iphone' 'small' 'big' }}">content</div>
 
 If the mediaqueries validates this will return the first parameter:
