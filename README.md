@@ -7,11 +7,8 @@ For a performance overview and feature of the polyfill look at: https://github.c
 
 ##Install
 
-
-* Run
-
 ```
-mrt add mediaqueries
+meteor add nerdmed:mediaqueries
 ```
 
 
