@@ -1,8 +1,8 @@
 Package.describe({
-    name: "nerdmed:mediaqueries"
-    summary: "Reactive media queries for all browsers"
+    name: "nerdmed:mediaqueries",
+    summary: "Reactive media queries for all browsers",
     version: "0.1.3",
-    git: "https://github.com/nerdmed/mediaqueries.git",
+    git: "https://github.com/nerdmed/mediaqueries.git"
 });
 
 Package.onUse(function(api, where) {
