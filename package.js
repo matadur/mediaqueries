@@ -1,8 +1,8 @@
 Package.describe({
-    name: "nerdmed:mediaqueries",
-    summary: "Reactive media queries for all browsers",
-    version: "0.1.5",
-    git: "https://github.com/nerdmed/mediaqueries.git"
+    name: "matadur:mediaqueries",
+    summary: "Reactive media queries for all browsers, forked from nerdmed:mediaqueries",
+    version: "0.1.6",
+    git: "https://github.com/matadur/mediaqueries.git"
 });
 
 Package.onUse(function(api, where) {
